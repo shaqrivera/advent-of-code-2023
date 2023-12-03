@@ -44,6 +44,7 @@ const partTwo = () => {
         const numbersAndWords = []
         let match;
         while (match = regex.exec(line)) {
+            // Match overlapping words in the line
             regex.lastIndex -= match[0].length - 1;
             numbersAndWords.push(match[0]);
         }

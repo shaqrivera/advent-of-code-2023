@@ -1,0 +1,26 @@
+{
+  "name": "cube-conundrum",
+  "version": "1.0.0",
+  "description": "Day 2 Cube Conundrum",
+  "main": "cube-conundrum.js",
+  "scripts": {
+    "start": "node cube-conundrum.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/advent-of-code-2023.git"
+  },
+  "keywords": [
+    "Day",
+    "2",
+    "Cube",
+    "Conundrum"
+  ],
+  "author": "Shaq Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme",
+  "type": "module"
+}
