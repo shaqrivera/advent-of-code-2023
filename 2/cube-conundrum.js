@@ -22,6 +22,10 @@ input.forEach(line => {
     })
 })
 
+/**
+ * 
+ * @returns {Number}
+ */
 const partOne = () => {
     const possibleGames = []
 
@@ -37,6 +41,10 @@ const partOne = () => {
     return possibleGames.reduce((prev, curr) => prev + curr ,0)
 }
 
+/**
+ * 
+ * @returns {Number}
+ */
 const partTwo = () => {
     const powers = []
 
