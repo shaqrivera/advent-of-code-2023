@@ -17,5 +17,8 @@
     "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
   },
   "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.10.3"
+  }
 }

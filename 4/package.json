@@ -1,10 +1,10 @@
 {
-  "name": "gear-ratios",
+  "name": "scratchcards",
   "version": "1.0.0",
-  "description": "Day 3 Gear Ratios",
-  "main": "gear-ratios.ts",
+  "description": "Day 4 Scratchcards",
+  "main": "scratchcards.ts",
   "scripts": {
-    "start": "npx ts-node gear-ratios.ts"
+    "start": "npx ts-node scratchcards.ts"
   },
   "repository": {
     "type": "git",
@@ -12,9 +12,8 @@
   },
   "keywords": [
     "Day",
-    "3",
-    "Gear",
-    "Ratios"
+    "4",
+    "Scratchcards"
   ],
   "author": "Shaq Rivera",
   "license": "ISC",
