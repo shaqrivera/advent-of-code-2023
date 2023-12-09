@@ -1,10 +1,10 @@
 {
-  "name": "if-you-give-a-seed-fertilizer",
+  "name": "wait-for-it",
   "version": "1.0.0",
-  "description": "Day 5: If You Give A Seed A Fertilizer",
-  "main": "if-you-give-a-seed-fertilizer.ts",
+  "description": "Day 6: Wait For It",
+  "main": "wait-for-it.ts",
   "scripts": {
-    "start": "npx ts-node if-you-give-a-seed-fertilizer.ts"
+    "start": "npx ts-node wait-for-it.ts"
   },
   "repository": {
     "type": "git",
@@ -12,13 +12,10 @@
   },
   "keywords": [
     "Day",
-    "5",
-    "If",
-    "You",
-    "Give",
-    "A",
-    "Seed",
-    "Fertilizer"
+    "6",
+    "Wait",
+    "For",
+    "It"
   ],
   "author": "Shaq Rivera",
   "license": "ISC",
