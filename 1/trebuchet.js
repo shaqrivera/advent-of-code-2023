@@ -54,6 +54,6 @@ const partTwo = () => {
     }, 0)
 }
 
+console.log('---------Day One: Trebuchet?!---------')
 console.log('Part one: The sum of all calibration values is ', partOne())
-
 console.log('Part two: The sum of all calibration values is ', partTwo())

@@ -1,0 +1,25 @@
+{
+  "name": "haunted-wasteland",
+  "version": "1.0.0",
+  "description": "Day 8: Haunted Wasteland",
+  "main": "haunted-wasteland.ts",
+  "scripts": {
+    "start": "npx ts-node haunted-wasteland.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/advent-of-code-2023.git"
+  },
+  "keywords": [
+    "Day",
+    "8",
+    "Haunted",
+    "Wasteland"
+  ],
+  "author": "Shaq Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme"
+}

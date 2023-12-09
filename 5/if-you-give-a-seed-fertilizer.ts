@@ -30,5 +30,6 @@ const partTwo = () => {
     return findLowestLocationForSeedRanges(seedRanges)
 }
 
+console.log('---------Day 5: If You Give A Seed A Fertilizer---------')
 console.log('Part one: The lowest location corresponding to one of the initial seeds is ', partOne())
 console.log('Part two: The lowest location corresponding to one of the initial seeds is ', partTwo())

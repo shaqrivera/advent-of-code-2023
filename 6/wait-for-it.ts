@@ -45,5 +45,6 @@ const partTwo = () => {
     return waysToWin
 }
 
+console.log('---------Day 6: Wait For It---------')
 console.log('Part one: The product of the ways to win is: ', partOne())
 console.log('Part two: The number of ways to win is: ', partTwo())

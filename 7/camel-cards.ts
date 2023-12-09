@@ -1,4 +1,5 @@
 import fs from 'fs'
+const hands = fs.readFileSync('input.txt', 'utf-8').split(/\n/g).map(line => line.split(' '))
 
 type HandInfo = { hand: string, bid: number }
 enum HANDS {
@@ -10,8 +11,6 @@ enum HANDS {
     ONE_PAIR = 'one-pair',
     HIGH_CARD = 'high-card'
 }
-
-const hands = fs.readFileSync('input.txt', 'utf-8').split(/\n/g).map(line => line.split(' '))
 const handRankings = [HANDS.FIVE_OF_A_KIND, HANDS.FOUR_OF_A_KIND, HANDS.FULL_HOUSE, HANDS.THREE_PAIR, HANDS.TWO_PAIR, HANDS.ONE_PAIR, HANDS.HIGH_CARD]
 
 /**
@@ -158,5 +157,6 @@ const partTwo = () => {
     }, 0)
 }
 
+console.log('---------Day 7: Camel Cards---------')
 console.log('Part one: The sum of all the winnings from each hand is: ', partOne())
 console.log('Part two: The sum of all the winnings from each hand is: ', partTwo())

@@ -62,5 +62,6 @@ const partTwo = () => {
     return sum
 }
 
+console.log('---------Day 4: Scratchcards---------')
 console.log('Part one: The sum of all the points won is: ', partOne())
 console.log('Part two: The total number of cards won is: ', partTwo())

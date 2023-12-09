@@ -59,7 +59,7 @@ const partTwo = () => {
 
 }
 
+console.log('---------Day 2: Cube Conundrum---------')
 console.log('Part one: the sum of the IDs of all the possible games is: ', partOne())
-
 console.log('Part two: the sum of all the powers of minimum required cubes for each game is: ', partTwo())
 

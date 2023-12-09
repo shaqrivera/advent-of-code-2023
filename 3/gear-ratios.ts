@@ -153,5 +153,6 @@ const partTwo = (): number => {
     return sum
 }
 
+console.log('---------Day 3: Gear Ratios---------')
 console.log('Part one: the sum of all the part numbers in the schematic is ', partOne())
 console.log('Part two: the sum of all the gear ratios in the schematic is ', partTwo())

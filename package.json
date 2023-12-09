@@ -4,7 +4,7 @@
   "description": "My submissions for 2023's advent of code.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "chmod +x run-all.sh && ./run-all.sh"
   },
   "repository": {
     "type": "git",
