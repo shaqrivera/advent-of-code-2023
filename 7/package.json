@@ -1,0 +1,25 @@
+{
+  "name": "camel-cards",
+  "version": "1.0.0",
+  "description": "Day 7: Camel Cards",
+  "main": "camel-cards.ts",
+  "scripts": {
+    "start": "npx ts-node camel-cards.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/advent-of-code-2023.git"
+  },
+  "keywords": [
+    "Day",
+    "7",
+    "Camel",
+    "Cards"
+  ],
+  "author": "Shaq Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme"
+}
