@@ -96,5 +96,6 @@ const partTwo = () => {
     return smallestNumberOfMoves * multiplier
 }
 
+console.log('---------Day 8: Haunted Wasteland---------')
 console.log('Part one: The total number of moves to reach ZZZ from AAA is: ', partOne())
 console.log('Part two: The total number of moves for all starting points to reach a point ending in Z is: ', partTwo())
