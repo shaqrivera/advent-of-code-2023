@@ -1,0 +1,25 @@
+{
+  "name": "pipe-maze",
+  "version": "1.0.0",
+  "description": "Day 10: Pipe Maze",
+  "main": "pipe-maze.ts",
+  "scripts": {
+    "start": "npx ts-node pipe-maze.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/advent-of-code-2023.git"
+  },
+  "keywords": [
+    "Day",
+    "10",
+    "Pipe",
+    "Maze"
+  ],
+  "author": "Shaq Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme"
+}
