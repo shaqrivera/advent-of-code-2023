@@ -1,9 +1,8 @@
 import fs from 'fs'
+const input = fs.readFileSync('input.txt', 'utf-8').split(/\n/g)
 type Coordinates = [x: number, y: number]
 const rowsToExpand: number[] = []
 const columnsToExpand: number[] = []
-
-const input = fs.readFileSync('input.txt', 'utf-8').split(/\n/g)
 
 const universe = input.map(((row, y) => {
     const splitRow = row.split('')

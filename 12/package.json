@@ -1,0 +1,25 @@
+{
+  "name": "hot-springs",
+  "version": "1.0.0",
+  "description": "Day 12: Hot Springs",
+  "main": "hot-springs.ts",
+  "scripts": {
+    "start": "npx ts-node hot-springs.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/advent-of-code-2023.git"
+  },
+  "keywords": [
+    "Day",
+    "12",
+    "Hot",
+    "Springs"
+  ],
+  "author": "Shaq Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/advent-of-code-2023/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/advent-of-code-2023#readme"
+}

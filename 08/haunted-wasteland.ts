@@ -88,12 +88,12 @@ const partTwo = () => {
             moveCount++
         }
     }
-    const smallestNumberOfMoves = Math.max(...movesToFinish)
+    const largestNumberOfMoves = Math.max(...movesToFinish)
     let multiplier = 1
-    while(!movesToFinish.every(n => (smallestNumberOfMoves * multiplier) % n === 0)) {
+    while(!movesToFinish.every(n => (largestNumberOfMoves * multiplier) % n === 0)) {
         multiplier++
     }
-    return smallestNumberOfMoves * multiplier
+    return largestNumberOfMoves * multiplier
 }
 
 console.log('---------Day 8: Haunted Wasteland---------')
